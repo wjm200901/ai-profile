@@ -1,0 +1,67 @@
+{
+  "name": "林深",
+  "description": "AI 产品设计师，专注把复杂系统翻译成人话。当前在做面向 65 岁以上用户的语音助手「银龄 AI」。",
+  "version": "0.1.0",
+  "protocolVersion": "0.2.0",
+  "url": "https://github.com/yourname/ai-profile",
+  "preferredTransport": "http",
+  "humanInTheLoop": true,
+  "defaultResponseLevel": "L1",
+  "provider": {
+    "organization": "银龄 AI（示例）",
+    "url": "https://example.com"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "defaultInputModes": ["text/plain", "text/markdown"],
+  "defaultOutputModes": ["text/markdown"],
+  "skills": [
+    {
+      "id": "ai-product-interaction",
+      "name": "AI 产品交互定义",
+      "description": "从使用场景出发定义 AI 产品的交互方式、失败兜底与评测集。",
+      "tags": ["ai-product", "interaction-design", "prompt-engineering"],
+      "examples": ["为一个面向老年人的语音助手设计首次使用流程"]
+    },
+    {
+      "id": "prompt-and-eval",
+      "name": "提示词设计与评测",
+      "description": "构建可回归的提示词评测集，量化模型表现而非凭感觉调优。",
+      "tags": ["prompt-engineering", "evaluation"],
+      "examples": ["为客服场景搭建 300 条回归用例"]
+    },
+    {
+      "id": "elderly-usability",
+      "name": "老年用户可用性测试",
+      "description": "主持面向 65 岁以上用户的可用性访谈与测试，识别\"怕用错\"类问题。",
+      "tags": ["user-research", "accessibility"],
+      "examples": ["社区陪访两周，找出 3 个高频误操作路径"]
+    }
+  ],
+  "authorization": {
+    "L1_canAnswerDirectly": [
+      "职业背景与方法论",
+      "公开项目成果",
+      "对产品设计的通用观点"
+    ],
+    "L2_draftOnly": [
+      "合作意向与报价",
+      "对外正式声明",
+      "涉及具体公司的评价"
+    ],
+    "L3_mustRefuse": [
+      "法律与医疗建议",
+      "对第三方的负面评价",
+      "人事与薪酬信息"
+    ]
+  },
+  "contact": {
+    "email": "hi@example.com",
+    "url": "https://github.com/yourname"
+  },
+  "as_of": "2026-10-31",
+  "notes": "本文件为示例。agent card 用来说明\"我的 AI 代理可以代表我做什么、不能做什么\"，不涉及真实服务端点。"
+}

@@ -1,0 +1,28 @@
+# 私有内容：永不进入公开仓库
+private/
+*.private.md
+
+# 构建产物（由 scripts/build.py 生成，可随时重建）
+dist/
+
+# 本地环境
+.env
+.env.*
+*.token
+secrets/
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node（如果以后加工具链）
+node_modules/

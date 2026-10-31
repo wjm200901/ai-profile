@@ -1,0 +1,52 @@
+# 双授权说明
+
+本仓库同时包含**文字内容**和**代码工具**，分别适用不同许可：
+
+## 内容（一切 `.md` / `.txt` / `.json` 文件）
+
+采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)
+（署名 - 非商业性使用 - 相同方式共享 4.0 国际）
+
+你可以：
+- 复制、改编本档案的结构与文字用于自己的个人档案（请署名并保留相同许可）
+- 在非商业场景中引用
+
+你需要：
+- **署名**：注明来源仓库链接与版本
+- **非商业**：不得直接用于售卖、付费课程等商业用途
+- **相同方式共享**：改编后的内容须以相同许可发布
+
+## 代码（`scripts/`、`.github/`）
+
+采用 [MIT License](https://opensource.org/licenses/MIT)
+
+```
+MIT License
+
+Copyright (c) 2026 林深（示例）
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## 引用格式
+
+```
+林深. AI 时代的个人档案, v0.1, 2026-10-31.
+https://github.com/<yourname>/ai-profile
+```
