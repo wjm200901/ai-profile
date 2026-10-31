@@ -1,48 +1,44 @@
 {
   "$comment": "机器可读的档案索引。字段含义见 docs/DESIGN.md 第 3 条（时间戳）与第 8 条（可校验）。",
-  "version": "0.1.0",
-  "as_of": "2026-10-31",
-  "canonicalUrl": "https://github.com/yourname/ai-profile",
+  "version": "0.2.0",
+  "as_of": "2026-11-01",
+  "canonicalUrl": "https://github.com/wjm200901/ai-profile",
   "person": {
     "@type": "Person",
-    "name": "林深",
-    "alternateName": "Lin Shen",
-    "jobTitle": "AI 产品设计师",
-    "description": "把复杂系统翻译成人话的产品设计师，专注 AI 产品的交互定义与老年人可用性。",
-    "location": "杭州，中国",
-    "worksFor": {
-      "@type": "Organization",
-      "name": "银龄 AI（示例）"
-    }
+    "name": "王嘉铭",
+    "alternateName": "Wang Jiaming",
+    "jobTitle": "高三学生",
+    "description": "在意成绩、也在折腾 AI 的高三学生。正在备考，同时自学 AI 与软笔书法。",
+    "location": "中国（不公开城市）",
+    "worksFor": null
   },
-  "summary30s": "30 岁，杭州，AI 产品设计师。建筑学出身，6 年交互设计，3 年 AI 产品。当前做面向 65 岁以上用户的语音助手，已服务 1.2 万家庭。方法论：AI 产品的瓶颈通常在表达，不在能力。",
+  "summary30s": "高三学生。高一那次分班考失利后，高二整年用「玩」消化挫败，成绩掉到 370 段；现在按周计划补理综基础。课余自学 AI、练软笔书法，想读 CS 但还没确定方向。",
   "knowsAbout": [
-    "AI 产品交互设计",
-    "提示词工程与评测集",
-    "老年用户可用性",
-    "语音交互",
-    "职业转型"
+    "高考备考",
+    "软笔书法",
+    "AI 工具使用",
+    "计算机科学（初步了解）"
   ],
   "currentFocus": {
-    "doing": "银龄 AI v2：把「一次只问一个问题」做成默认交互",
-    "learning": "语音交互的评测方法",
-    "seeking": "养老机构与社区合作试点；懂方言语音的工程师",
-    "notDoing": ["纯模型微调", "To B 大客户销售", "需要长期出差的咨询"]
+    "doing": "备战高考；按 plan/study-plan.md 补理综基础",
+    "learning": "AI 工具的实际用法",
+    "seeking": "目标大学与专业方向；验证自己是否适合 CS",
+    "notDoing": ["熬夜学习", "为了兴趣牺牲睡眠", "超出舒适区的冒险尝试（正在改）"]
   },
   "sameAs": [
-    "https://github.com/yourname",
-    "https://example.com/blog",
-    "https://example.com/silver-ai"
+    "https://github.com/wjm200901"
   ],
-  "languages": ["zh-CN", "en"],
+  "languages": ["zh-CN"],
   "profileSections": [
     { "path": "identity/00-core.md", "title": "核心", "tokenHint": 900 },
     { "path": "identity/01-timeline.md", "title": "时间线", "tokenHint": 700 },
     { "path": "identity/02-capabilities.md", "title": "能力地图", "tokenHint": 800 },
-    { "path": "identity/03-taste.md", "title": "品味", "tokenHint": 700 },
-    { "path": "identity/04-principles.md", "title": "原则", "tokenHint": 700 },
-    { "path": "identity/05-voice.md", "title": "声音", "tokenHint": 900 },
-    { "path": "identity/06-boundaries.md", "title": "边界", "tokenHint": 800 }
+    { "path": "identity/03-taste.md", "title": "品味", "tokenHint": 600 },
+    { "path": "identity/04-principles.md", "title": "原则", "tokenHint": 600 },
+    { "path": "identity/05-voice.md", "title": "声音", "tokenHint": 800 },
+    { "path": "identity/06-boundaries.md", "title": "边界", "tokenHint": 800 },
+    { "path": "identity/07-academics.md", "title": "学业现状与目标", "tokenHint": 900 },
+    { "path": "plan/study-plan.md", "title": "高三学业规划", "tokenHint": 800 }
   ],
   "authorization": {
     "default": "L1",
@@ -59,6 +55,7 @@
   "dataPolicy": {
     "isInstruction": false,
     "staleAfterDays": 90,
-    "requireCitationLevel": true
+    "requireCitationLevel": true,
+    "minorProtection": true
   }
 }

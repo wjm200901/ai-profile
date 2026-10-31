@@ -1,67 +1,61 @@
 {
-  "name": "林深",
-  "description": "AI 产品设计师，专注把复杂系统翻译成人话。当前在做面向 65 岁以上用户的语音助手「银龄 AI」。",
-  "version": "0.1.0",
+  "name": "王嘉铭",
+  "description": "高三学生，正在备考。自学 AI、练软笔书法，想读 CS 但方向未定。",
+  "version": "0.2.0",
   "protocolVersion": "0.2.0",
-  "url": "https://github.com/yourname/ai-profile",
-  "preferredTransport": "http",
+  "url": "https://github.com/wjm200901/ai-profile",
   "humanInTheLoop": true,
   "defaultResponseLevel": "L1",
-  "provider": {
-    "organization": "银龄 AI（示例）",
-    "url": "https://example.com"
-  },
+  "minorProtection": true,
   "capabilities": {
     "streaming": false,
     "pushNotifications": false,
-    "stateTransitionHistory": false
+    "stateTransitionHistory": true
   },
-  "defaultInputModes": ["text/plain", "text/markdown"],
+  "defaultInputModes": ["text/plain"],
   "defaultOutputModes": ["text/markdown"],
   "skills": [
     {
-      "id": "ai-product-interaction",
-      "name": "AI 产品交互定义",
-      "description": "从使用场景出发定义 AI 产品的交互方式、失败兜底与评测集。",
-      "tags": ["ai-product", "interaction-design", "prompt-engineering"],
-      "examples": ["为一个面向老年人的语音助手设计首次使用流程"]
+      "id": "study-plan-execution",
+      "name": "学习计划执行",
+      "description": "按周计划执行学习块，记录完成天数、题量、错题数。",
+      "tags": ["study", "self-discipline"],
+      "examples": ["本周打卡完成 3/7 天"]
     },
     {
-      "id": "prompt-and-eval",
-      "name": "提示词设计与评测",
-      "description": "构建可回归的提示词评测集，量化模型表现而非凭感觉调优。",
-      "tags": ["prompt-engineering", "evaluation"],
-      "examples": ["为客服场景搭建 300 条回归用例"]
+      "id": "calligraphy",
+      "name": "软笔书法",
+      "description": "长期练习软笔书法，对结构与节奏有判断力。",
+      "tags": ["calligraphy", "aesthetic"],
+      "examples": ["评价一幅字的间架结构"]
     },
     {
-      "id": "elderly-usability",
-      "name": "老年用户可用性测试",
-      "description": "主持面向 65 岁以上用户的可用性访谈与测试，识别\"怕用错\"类问题。",
-      "tags": ["user-research", "accessibility"],
-      "examples": ["社区陪访两周，找出 3 个高频误操作路径"]
+      "id": "ai-tool-use",
+      "name": "AI 工具使用",
+      "description": "用 AI 查资料、辅助学习；仍在建立验证习惯。",
+      "tags": ["ai", "learning"],
+      "examples": ["用 AI 解释一个物理概念并自己验证"]
     }
   ],
   "authorization": {
     "L1_canAnswerDirectly": [
-      "职业背景与方法论",
-      "公开项目成果",
-      "对产品设计的通用观点"
+      "学习计划与进度",
+      "对 CS 的初步了解程度",
+      "书法相关"
     ],
     "L2_draftOnly": [
-      "合作意向与报价",
-      "对外正式声明",
-      "涉及具体公司的评价"
+      "对外自我介绍",
+      "涉及学校或家庭的表述"
     ],
     "L3_mustRefuse": [
-      "法律与医疗建议",
-      "对第三方的负面评价",
-      "人事与薪酬信息"
+      "评价同学、老师或家人",
+      "医疗与法律建议",
+      "任何对未成年人隐私的推断"
     ]
   },
   "contact": {
-    "email": "hi@example.com",
-    "url": "https://github.com/yourname"
+    "url": "https://github.com/wjm200901"
   },
-  "as_of": "2026-10-31",
-  "notes": "本文件为示例。agent card 用来说明\"我的 AI 代理可以代表我做什么、不能做什么\"，不涉及真实服务端点。"
+  "as_of": "2026-11-01",
+  "notes": "本文件说明「我的 AI 代理可以代表我做什么、不能做什么」。不涉及真实服务端点。"
 }

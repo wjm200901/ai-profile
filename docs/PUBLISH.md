@@ -51,7 +51,7 @@ git push -u origin main
 
 ## 发布后必做（5 分钟）
 
-1. **改占位符**：全局搜索 `yourname`、`example.com`、`林深`，替换成你的。
+1. **改占位符**：全局搜索 `yourname`、`example.com`、`wjm200901`，替换成你的。
 2. **设 About**：右侧齿轮 → Description 填一句话 → Website 填你的主页。
 3. **加 Topics**：`personal-profile`、`ai-native`、`llms-txt`、`digital-twin`、`knowledge-base`。
 4. **确认 Action 通过**：Actions 标签页应显示 `validate` 绿色。第一次运行需要启用 Actions。

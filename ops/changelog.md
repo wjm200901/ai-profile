@@ -10,6 +10,16 @@
 - 工具：`scripts/validate.py`、`scripts/build.py`、`scripts/publish.ps1`
 - CI：`.github/workflows/validate.yml`
 
+## [0.2.0] - 2026-11-01
+
+### Changed
+- 档案从虚构示例（林深）替换为王嘉铭的真实内容
+- 新增 `identity/07-academics.md`（学业现状与目标）与 `plan/study-plan.md`（周计划 / 打卡表）
+- 重写：00 核心、01 时间线、02 能力、03 品味、04 原则、05 声音、06 边界、记忆/项目、`llms.txt`、`profile.json`、agent card、系统提示词
+
+### Notes
+- 部分小节标注「待补」，等下一轮访谈补齐（分班考细节、书法年限、影响我的人）
+
 ## [0.1.0] - 2026-10-31
 
 ### Added
